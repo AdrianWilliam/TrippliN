@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --text-title: "Poppins", "sans-serif";
+  --text-title-weight: 500;
+  --text-cost: "Roboto", "sans-serif";
+  --text-description: "Quicksand", "sans-serif";
+  --background-color: #8a00c2;
+  --margin-left: 5px;
+}
+body {
+  margin: 0;
+  display: flex;
+  min-width: 100%;
+  min-height: 100vh;
+}

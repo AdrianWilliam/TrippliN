@@ -1,0 +1,54 @@
+.icons {
+  width: 50px;
+  height: 50px;
+  font-size: 1.5rem;
+}
+.menuItens {
+  width: 100%;
+  height: 100%;
+}
+.listItens {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  list-style-type: none;
+}
+.listItens li {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  padding: 8px;
+  font-size: 1.3rem;
+}
+.listItens li i {
+  height: 25px;
+  width: 25px;
+  padding-left: 5px;
+  margin-right: 5px;
+}
+
+.listItens li:hover {
+  background-color: #67676731;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.listItens li:hover i {
+  color: #242424;
+  transition: color 0.3s;
+}
+.itemWithList li {
+  list-style-type: none;
+}
+.showList {
+  display: block;
+  height: 100%;
+  transition: height 0.5s;
+}
+.hidingList {
+  display: none;
+}
+.showList li:hover {
+  background-color: gray;
+}

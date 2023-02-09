@@ -1,0 +1,213 @@
+.containerDisplayProduct {
+  display: flex;
+  justify-content: center;
+  max-height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+.containerContent {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7821e;
+  width: 85%;
+  height: 100%;
+  padding: 10px;
+}
+.containerImgDisplayProduct {
+  width: 100%;
+  height: 15rem;
+}
+.containerImgDisplayProduct img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 0;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  color: black;
+  gap: 0.3rem;
+}
+.details div {
+  margin: 3px 0 3px 0;
+}
+.details .title {
+  margin-left: var(--margin-left);
+  font-size: 1.6rem;
+  font-family: var(--text-title);
+  font-weight: var(--text-title-weight);
+  color: white;
+}
+.details .cost {
+  margin-left: var(--margin-left);
+  font-family: var(--text-cost);
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: white;
+}
+.details .description {
+  margin-left: var(--margin-left);
+  font-family: var(--text-description);
+  color: white;
+  font-weight: 400;
+}
+.details .containerButtonDisplayProduct {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  text-align: center;
+  padding-top: 12px;
+}
+.details .containerButtonDisplayProduct button {
+  font-family: var(--text-cost);
+  background-color: #ffebd8de;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  width: 10rem;
+  padding: 10px;
+  margin-left: 5px;
+  color: #2e2e2e;
+  transition: transform 0.3s, background-color 0.2s;
+}
+.details .containerButtonDisplayProduct button:hover {
+  color: black;
+  cursor: pointer;
+
+  background-color: #ffebd8;
+}
+@media (min-width: 600px) {
+  .containerContent {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 100%;
+    padding: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .containerContent {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    padding: 10px;
+  }
+  .containerImgDisplayProduct {
+    width: 100%;
+    height: 14rem;
+  }
+}
+@media (min-width: 968px) {
+  .containerContent {
+    flex-direction: row;
+    width: 90%;
+    padding: 10px;
+    gap: 0.6em;
+  }
+  .containerImgDisplayProduct {
+    height: 100%;
+  }
+  .containerImgDisplayProduct img {
+    object-fit: fill;
+  }
+  .details .containerButtonDisplayProduct {
+    justify-content: start;
+    text-align: none;
+  }
+}
+@media (min-width: 1024px) {
+  .details .title {
+    font-size: 1.8rem;
+  }
+  .details .cost {
+    margin-left: var(--margin-left);
+    font-family: var(--text-cost);
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+  .details .description {
+    font-weight: 500;
+  }
+}
+
+@media (min-height: 720px) {
+  .containerContent {
+    padding: 5px;
+  }
+}
+@media (min-width: 1200px) {
+  .containerDisplayProduct {
+    align-items: center;
+  }
+  .containerContent {
+    height: 95%;
+  }
+  .containerImgDisplayProduct {
+    display: flex;
+    align-items: center;
+  }
+  .containerImgDisplayProduct img {
+    height: 95%;
+  }
+  .details {
+    gap: 0.8rem;
+    justify-content: center;
+  }
+}
+@media(max-height: 370px){
+  .containerContent{
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+  .containerImgDisplayProduct {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .containerImgDisplayProduct img {
+    width: 100%;
+    height: 70%;
+  }
+  .details {
+    width: 100%;
+    justify-content: center;
+  }
+  .details .title {
+    font-size: 1.8rem;
+  }
+  .details .cost {
+    font-size: 1.3rem;
+  }
+  .details .description {
+    font-size: 0.8rem;
+  }
+  .details .containerButtonDisplayProduct  {
+    gap: 0.6rem;
+  }
+  .details .containerButtonDisplayProduct button{
+    font-size: 0.8rem;
+    width: 5rem;
+    height: 2.3rem;
+    padding: 0;
+    margin-left: 0;
+  }
+}
+@media (max-height: 520) {
+  .containerDisplayProduct {
+    align-items: center;
+  }
+  .containerContent {
+    flex-direction: row;
+    width: 100%;
+    height: 85%;
+  }
+  .containerImgDisplayProduct {
+    height: 100%;
+  }
+}

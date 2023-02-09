@@ -1,0 +1,85 @@
+.containerLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100%;
+}
+.addDatasLogin {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 20rem;
+  background-image: linear-gradient(rgb(255 150 14 / 76%), rgb(255 59 0 / 87%));
+  border-radius: 2px;
+}
+.loginTitle {
+  width: 100%;
+  text-align: center;
+  margin-top: 26px;
+  font-size: 2.3rem;
+  color: white;
+}
+.data {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+}
+.data label {
+  font-size: 1.2rem;
+  color: white;
+}
+.data input {
+  border: none;
+  width: 15rem;
+  padding: 7px 0 7px 0;
+  font-size: 1.1rem;
+}
+.forgotPassword {
+  cursor: pointer;
+  padding-left: 40px;
+  width: 100%;
+  color: white;
+}
+.forgotPassword p {
+  width: 41%;
+}
+.forgotPassword p:hover {
+  transform: scale(1.01);
+}
+.createAccount a:link,
+.createAccount a:visited {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+.createAccount a:hover {
+  transform: scale(1.02);
+}
+.otherWayLogin {
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  width: 100%;
+}
+.otherWayLogin p {
+  font-size: 0.95rem;
+  padding: 1px;
+}
+.otherWayLogin span:hover {
+  cursor: pointer;
+  color: gold;
+}
+.otherWayLogin i svg {
+  font-size: 2.5rem;
+  border-radius: 50%;
+  margin: 0 1px 0 1px;
+}
+.otherWayLogin i svg:hover {
+  cursor: pointer;
+  transition: color 0.3s;
+  color: whitesmoke;
+  transform: scale(1.1);
+}

@@ -1,0 +1,71 @@
+.containerRegister {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100%;
+}
+.addDatasRegister {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 20rem;
+  min-height: 27rem;
+  background-image: linear-gradient(rgb(255 150 14 / 76%), rgb(255 59 0 / 87%));
+  border-radius: 2px;
+}
+.registerTitle {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2.3rem;
+  color: white;
+}
+.data {
+  margin-top: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: 2.6rem;
+}
+.data input {
+  border: none;
+  width: 15rem;
+  padding: 7px 0 7px 0;
+  font-size: 1.1rem;
+  border-radius: 2px;
+  text-indent: 3px;
+}
+.makeLogin {
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  width: 100%;
+}
+.loginRedirect {
+  font-size: 1rem;
+  padding: 1px;
+}
+.loginRedirect a:link,
+.loginRedirect a:visited {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.success {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+  height: 200px;
+  background: #1d1d1d;
+  text-align: center;
+  border-radius: 5px;
+}
+.success p {
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.296);
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+}
